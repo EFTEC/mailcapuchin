@@ -22,15 +22,18 @@
   },
   "require": {
     "php": ">=5.6",
-    "phpmailer/phpmailer": "v6.0.7",    
-    "ext-json": "*"
+    "phpmailer/phpmailer": "^6.6.3",
+    "eftec/dashone": "^1.7",
+    "ext-json": "*",
+    "eftec/daoone": "^3.30",
+    "eftec/validationone": "1.14"
   },
   "archive": {
     "exclude": ["/examples"]
   },
   "autoload": {
       "psr-4": {
-        "eftec\\mailcapuchin\\": "lib/",
+        "eftec\\MailCapuchin\\": "lib/",
         "eftec\\tests\\": "tests/"
       }
   },
